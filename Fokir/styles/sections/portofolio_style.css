@@ -4,5 +4,164 @@
 
 
 
+.portfolio{
+    width: 100%;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 5% 12%;
+}
+
+.portfolio h2{
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.portfolio i{
+    color: #FF305B;
+}
+
+/* LINES LINES LINES LINES LINES LINES LINES LINES LINES LINES LINES LINES LINES */
+
+.portfolio .line{
+    background-color: #FF305B;
+    height: 0.8px;
+    margin: auto;
+    margin-bottom: 5px ;
+}
+
+.portfolio .short{
+    width: 100px;
+}
+
+.portfolio .long{
+    width: 200px;
+}
 
 
+/* Categories Categories Categories Categories Categories Categories Categories */
+
+.portfolio .categories{
+    margin: auto;
+    margin-top: 2rem;
+    display: inline-block;
+}
+
+.portfolio .categories ul{  
+    float: right;    
+}
+
+.portfolio .categories li{
+    float: left;  
+    list-style: none;
+    margin: 1.2rem 1rem;
+}
+
+.portfolio .categories a{
+    color: #333333;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 100;
+    transition: 0.5s;
+}
+
+.portfolio .categories a:hover{
+    color: #FF305B;
+}
+
+/* CARDS CARDS CARDS CARDS CARDS CARDS CARDS CARDS CARDS CARDS CARDS CARDS CARDS */
+
+.portfolio .cards{
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.portfolio .card{
+    width: calc(33.333% - (2 * 0.8rem));
+    margin: 0rem 0.8rem;
+    float: left;
+    position: relative;
+    background-color: #FF305B;
+}
+
+.portfolio .card img{
+    width: 100%;
+    display: block;
+}
+
+.portfolio .card .overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(11,11,11,0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.portfolio .card .overlay i{
+    position: absolute;
+    bottom: 15px;
+    right: 12px;
+    font-size: 22px;
+
+    color: #333333;
+    transition: 0.5s;
+}
+
+.portfolio .card .overlay:hover{
+    opacity: 1;
+}
+
+.portfolio .card .overlay:hover i{
+    color: #FF305B;
+
+}
+
+
+.portfolio .between-clr{
+    height: 1px;
+    margin-bottom: 1.6rem;
+}
+
+
+
+@media only screen and (max-width: 1350px) {
+    .portfolio{
+        padding: 5% 5%;
+    }
+
+}
+
+
+@media only screen and (max-width: 1150px) {
+    .portfolio{
+        padding: 5% 12%;
+    }
+    .portfolio .card{
+        width: calc(50% - (2 * 0.8rem));
+        margin-bottom: 1.6rem;
+    }
+    .portfolio .between-clr{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .portfolio{
+        padding: 5% 5%;
+    }
+}
+
+
+@media only screen and (max-width: 670px) {
+    .portfolio{
+        padding: 5% 15%;
+    }
+    .portfolio .card{
+        width: calc(100% - (2 * 0.8rem));
+        display: block;
+    }
+
+}
