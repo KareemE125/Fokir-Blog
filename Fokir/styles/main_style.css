@@ -22,3 +22,79 @@ i{
 }
 
 
+
+/* Break Section ===> counts section */
+
+
+.counts-section{
+    width: 100%;
+    text-align: center;
+    background-color: #F1F1F1;
+    padding: 1% 12%;
+}
+
+.counts-section .card{
+    width: 25%;
+    float: left;
+    padding: 5%;
+}
+
+.counts-section .card i{
+    font-size: 36px;
+    margin: 10px;
+    color: #FF305B;
+    display: inline-block;
+}
+
+.counts-section .card h3{
+    font-size: 22px;
+    margin: 10px 0px;
+}
+
+.counts-section p{
+    font-size: 16px;
+    font-weight: 600;
+    margin: 10px 0px;
+}
+
+.counts-section .between-clr{
+    display: none;
+}
+
+
+@media only screen and (max-width: 1350px) {
+    .counts-section{
+        padding: 5% 5%;
+    }
+
+}
+
+@media only screen and (max-width: 900px) {
+    .counts-section{
+        padding: 5% 5%;
+    }
+    .counts-section .card{
+        width: 50%;
+    }
+    .counts-section .between-clr{
+        display: block;
+    }
+}
+
+
+@media only screen and (max-width: 670px) {
+    .counts-section{
+        padding: 2% 15%;
+    }
+
+    .counts-section .card{
+        width: 100%;
+        display: block;
+        padding: 3%;
+    }
+
+    .counts-section .between-clr{
+        display: none;
+    }
+
+}
