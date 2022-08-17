@@ -2,3 +2,85 @@
 /* SECTION (7) ==> CONTACT // SECTION (7) ==> CONTACT // SECTION (7) ==> CONTACT */
 /* SECTION (7) ==> CONTACT // SECTION (7) ==> CONTACT // SECTION (7) ==> CONTACT */
 /* SECTION (7) ==> CONTACT // SECTION (7) ==> CONTACT // SECTION (7) ==> CONTACT */
+
+.contact{
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    padding: 5% 12%;
+}
+
+.contact h2{
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.contact i{
+    color: #FF305B;
+}
+
+/* LINES LINES LINES LINES LINES LINES LINES LINES LINES LINES LINES LINES LINES */
+
+.contact .line{
+    background-color: #FF305B;
+    height: 0.8px;
+    margin: auto;
+    margin-bottom: 5px ;
+}
+
+.contact .short{
+    width: 100px;
+}
+
+.contact .long{
+    width: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1350px) {
+    .contact{
+        padding: 5% 5%;
+    }
+
+}
+
+
+@media only screen and (max-width: 1150px) {
+    .contact{
+        padding: 5% 12%;
+    }
+    .contact .card{
+        width: calc(50% - (2 * 0.8rem));
+        margin-bottom: 1.6rem;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .contact{
+        padding: 5% 5%;
+    }
+}
+
+
+@media only screen and (max-width: 670px) {
+    .contact{
+        padding: 5% 15%;
+    }
+    .contact .card{
+        width: calc(100% - (2 * 0.8rem));
+        display: block;
+    }
+
+}
