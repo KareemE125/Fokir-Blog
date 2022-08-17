@@ -12,11 +12,12 @@ nav{
 .logo{
     width: 20%;
     float: left;
-    margin: 1rem 0rem;
+    margin: 0.8rem 0rem;
 }
 
 .logo h2{
     color: #FF305B;
+    font-size: 28px;
 }
 
 .links{
@@ -38,7 +39,8 @@ nav{
 .links a{
     color: white;
     text-decoration: none;
-    font-weight: 100;
+    font-family: sansPro-Light;
+    font-size: 16px;
     transition: 0.5s;
 }
 
@@ -96,7 +98,7 @@ nav{
     
     .logo h2{
         margin-top: 0.3rem;
-        font-size: 16px;
+        font-size: 22px;
         color: #FF305B;
     }
     
@@ -120,7 +122,8 @@ nav{
     
     .logo h2{
         margin-top: 0.3rem;
-        font-size: 14px;
+        margin-left: 3px;
+        font-size: 20px;
         color: #FF305B;
     }
     

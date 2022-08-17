@@ -30,7 +30,6 @@
 }
 
 .services h2{
-    font-size: 36px;
     margin-bottom: 10px;
 }
 
@@ -88,7 +87,7 @@
 
 @media only screen and (max-width: 1150px) {
     .services{
-        padding: 5% 12%;
+        padding: 8% 12%;
     }
     .services .card{
         width: 50%;
@@ -100,13 +99,13 @@
 
 @media only screen and (max-width: 800px) {
     .services{
-        padding: 5% 5%;
+        padding: 15% 5%;
     }
 }
 
 @media only screen and (max-width: 670px) {
     .services{
-        padding: 5% 15%;
+        padding: 15%;
     }
     .services .card{
         width: 100%;

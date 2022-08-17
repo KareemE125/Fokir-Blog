@@ -12,7 +12,6 @@
 }
 
 .testimonial h2{
-    font-size: 36px;
     margin-bottom: 10px;
     width: 100%;
     text-align: center;
@@ -61,6 +60,7 @@
 }
 
 .testimonial .feedback .content{
+    height: 100%;
     padding: 3rem 1rem;
     position: absolute;
     top: 0;
@@ -80,6 +80,7 @@
 
 .testimonial .feedback .content .right{
     width: 78%;
+    height: 100%;
     float: left;
 }
 
@@ -93,7 +94,7 @@
     margin: 10px 0;
 }
 
-.testimonial .feedback .content .right p{
+.testimonial .feedback .content .right .body{
     line-height: 1.5rem;
 }
 
@@ -123,9 +124,10 @@
     }
 
     .testimonial .feedback{
-        width: 400px;
+        width: 100%;
         padding: 2rem;
         padding-bottom: 5rem;
+        margin-bottom: 3rem;
     }
 
     .testimonial .feedback .content{
@@ -152,6 +154,14 @@
     }
 }
 
+
+@media only screen and (max-width: 670px) {
+
+    .testimonial .feedback .content .right .body{
+        height: 40%;
+        overflow: auto;
+    }
+}
 
 @media only screen and (max-width: 550px) {
 

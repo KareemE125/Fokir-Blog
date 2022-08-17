@@ -12,7 +12,6 @@
 }
 
 .portofolio h2{
-    font-size: 36px;
     margin-bottom: 10px;
 }
 
@@ -156,11 +155,31 @@
 
 @media only screen and (max-width: 670px) {
     .portofolio{
-        padding: 5% 15%;
+        padding: 5%;
     }
+
+    .portofolio .cards{
+        padding: 0 10%;
+    }
+
     .portofolio .card{
         width: calc(100% - (2 * 0.8rem));
         display: block;
+    }
+
+    .portofolio .categories li{
+        margin: 1.2rem 0.3rem;
+    }
+    
+    .portofolio .categories a{
+        font-size: 14px;
+    }
+
+}
+
+@media only screen and (max-width: 580px) {
+    .portofolio .cards{
+        padding: 0;
     }
 
 }
